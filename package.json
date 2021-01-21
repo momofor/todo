@@ -22,6 +22,7 @@
 		"@typescript-eslint/parser": "^4.12.0",
 		"cssnano": "^4.1.10",
 		"eslint": "^7.17.0",
+		"parcel": "^1.12.4",
 		"sass": "^1.32.4",
 		"typescript": "^4.1.3"
 	},
