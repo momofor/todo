@@ -10,10 +10,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "m"
+		"url": "https://www.github.com/momofor/todo"
 	},
 	"keywords": [
-		"m"
+		"todo, typescript"
 	],
 	"author": "momofor",
 	"license": "ISC",
@@ -24,5 +24,6 @@
 		"eslint": "^7.17.0",
 		"sass": "^1.32.4",
 		"typescript": "^4.1.3"
-	}
+	},
+	"dependencies": {}
 }
