@@ -1,0 +1,66 @@
+* {
+	padding: none;
+	margin: none;
+	box-sizing: border-box;
+}
+body {
+	background-color: #2e3440;
+	color: white;
+	text-align: center;
+	display: grid;
+	grid-template-rows: 30vh 70vh;
+	grid-template-columns: 20% 60% 20%;
+	min-height: 100%;
+}
+form {
+	border: 2px solid lightblue;
+	padding: 1vh;
+	display: inline-block;
+	border-radius: 1vh;
+	grid-column: 2/3;
+}
+.taskCard {
+	color: lightblue;
+	font-family: sans-serif;
+	font-size: 2em;
+	display: inline-block;
+	padding: 10px;
+}
+#tasks {
+	display: flex;
+	flex-direction: column;
+	grid-column: -2/-3;
+}
+.taskContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 1vh;
+	border: 2px solid cyan;
+	border-radius: 1vh;
+	display: inline-block;
+}
+.removeBut {
+	padding: none;
+	background-color: orange;
+	padding: 1vh;
+	color: white;
+	border-radius: 1vh;
+	position: relative;
+    border: none;
+    margin: 5px;
+}
+.checkBut {
+    @extend .removeBut;
+	background-color: green;
+}
+.checked {
+    background-color: green;
+    opacity: .5;
+}
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+    transition: 0.3s transform;
+}
+.filter-tasks:hover {
+    cursor: pointer;
+}

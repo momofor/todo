@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../src/styles.scss" />
+		<script src="../src/script.ts" defer></script>
+		<script src="https://use.fontawesome.com/9c640dfcf6.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
+		<title>todo</title>
+	</head>
+	<body>
+		<form action="">
+			<select name="task-filter" class="filter-tasks">
+				<option value="all">all</option>
+				<option value="completed">completed</option>
+			</select>
+			<h1>TO Do !</h1>
+			<h2>add a task</h2>
+
+			<label for="task">
+				<input type="text" id="task" value="" />
+			</label>
+
+			<label for="taskBut">
+				<input type="button" value="add Task" id="taskBut" />
+			</label>
+
+			<button id="clear" type="button">clear tasks</button>
+		</form>
+		<div id="tasks"></div>
+	</body>
+</html>
